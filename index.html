@@ -10,22 +10,22 @@
         <link rel='stylesheet prefetch' href='css/style.css'>
     </head>
 
-    <body data-ng-app="" style="background-color:{{color}}">
+    <body>
         <div class="container" >
 
             <div class="jumbotron"> 
                 <h2>  Angular Background Checker </h2> 
             </div>
 
-            <div class="row">
-                <div class="col-xs-6 main-form">
-                    <div class="form-group">
-                        <label for="color"> Background Colour </label>
-                        <input class="form-control input-lg" placeholder="teal" list="colour_list" id="color" data-ng-model="color" />
-                            <datalist id="colour_list"></datalist>
+                <div class="row">
+                    <div class="col-xs-6 main-form">
+                        <div class="form-group">
+                            <label for="color"> Background Colour </label>
+                            <input class="form-control input-lg" placeholder="teal" list="colour_list" id="color" data-ng-model="color" />
+                                <datalist id="colour_list"></datalist>
+                        </div> 
                     </div> 
-                </div> 
-            </div>
+                </div>
 
         </div>
             <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js'></script>
